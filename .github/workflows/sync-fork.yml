@@ -5,10 +5,6 @@ on:
     - cron: '*/30 * * * *' # every 30 minutes
   workflow_dispatch: # on button click
 
-permissions:
-      actions: write
-      contents: write
-
 jobs:
   sync:
 
